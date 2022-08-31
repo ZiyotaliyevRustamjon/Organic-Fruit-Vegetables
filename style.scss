@@ -1,0 +1,826 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// VERIABLES
+
+$linksA: #222222;
+$headerKink: #09A66D;
+$textColor: white;
+$theFristSectionColor: #F3FBF8;
+$theFristSectionText: #555555;
+$textColor1: black;
+$elipseColor: #09A66D;
+
+// VERIABLES
+
+
+// ELEMENTS
+
+
+
+
+.container {
+
+
+    //header row
+
+
+    .row {
+
+        header {
+            margin-top: 60px;
+            display: flex;
+
+            //LINKS
+
+            .links {
+                margin-left: -30px;
+
+                a {
+                    text-decoration: none;
+                    color: $linksA;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    margin-left: 30px;
+
+                }
+
+            }
+
+            //LINKS
+
+            .header-logo {
+                margin-left: 318px;
+                margin-top: -20px;
+            }
+
+
+            .header-search {
+                margin-left: 300px;
+                font-size: 19px;
+
+                .bi-cart {
+                    margin-left: 20px;
+
+                }
+
+                .header-link {
+                    background-color: $headerKink;
+                    color: $textColor;
+                    text-decoration: none;
+                    padding: 10px;
+                    border-radius: 50px;
+                    margin-left: 10px;
+
+                    &:hover {
+                        transition: 1s;
+                        box-shadow: 0 0 30px $headerKink;
+                    }
+                }
+            }
+
+
+
+        }
+
+    }
+
+
+
+    //header row
+
+
+
+    // the-frist-section
+
+
+    .row {
+
+        .background {
+
+            width: 115%;
+            background-color: $theFristSectionColor;
+            margin-left: -90px;
+            height: 950px;
+            margin-top: 80px;
+
+            .the-frist-section-img1 {
+                position: absolute;
+                margin-left: -0px;
+                margin-top: -0px;
+                z-index: 1;
+            }
+
+            .the-frist-section-title {
+                font-size: 60px;
+                font-weight: 700;
+                text-align: center;
+                font-family: Rosario;
+                padding-top: 150px;
+
+            }
+
+            .the-frist-section-text {
+                text-align: center;
+                margin-top: 20px;
+                color: $theFristSectionText;
+                font-size: 18px;
+            }
+
+            .the-frist-section-link {
+                text-decoration: none;
+                color: $textColor1;
+                margin-left: 630px;
+                margin-top: 57px;
+                position: absolute;
+
+                .bi-arrow-right {
+                    background-color: $headerKink;
+                    padding: 10px;
+                    color: $textColor;
+                    border-radius: 50px;
+                }
+            }
+
+            .the-frist-section-img2 {
+                width: 862px;
+                margin-top: 100px;
+                margin-left: 50px;
+            }
+
+            .card {
+                display: block;
+                position: absolute;
+                margin-top: -400px;
+                margin-left: 950px;
+
+                .card1 {
+                    display: block;
+                }
+
+                .card2 {
+                    margin-top: 20px;
+                }
+
+                .card3 {
+                    margin-top: 20px;
+                }
+            }
+
+        }
+
+    }
+
+
+    // the-frist-section
+
+
+
+
+
+
+    //second section 
+
+
+
+    .row {
+
+        .second-section1 {
+
+            .second-section-title {
+
+                font-size: 60px;
+                font-weight: 700;
+                font-family: Rosario;
+                margin-top: 140px;
+
+            }
+
+            .second-section-text {
+                font-size: 16px;
+                color: $theFristSectionText;
+            }
+
+        }
+
+        .second-section2 {
+            display: block;
+            margin-top: 70px;
+            margin-left: 60px;
+
+            .second-section21 {
+                width: 440px;
+                padding: 30px;
+                margin-left: -30px;
+
+                &:hover {
+                    transition: 0.7s;
+                    background-color: $theFristSectionColor;
+                }
+            }
+
+
+            .second-section22 {
+                margin-top: 70px;
+
+                width: 440px;
+                padding: 30px;
+                margin-left: -30px;
+
+                &:hover {
+                    transition: 0.7s;
+                    background-color: $theFristSectionColor;
+                }
+            }
+
+            .second-section23 {
+                margin-top: 70px;
+                width: 440px;
+                padding: 30px;
+                margin-left: -30px;
+
+                &:hover {
+                    transition: 0.7s;
+                    background-color: $theFristSectionColor;
+                }
+            }
+
+            .elipse {
+                width: 420px;
+                height: 420px;
+                background-color: $elipseColor;
+                border-radius: 250px;
+                margin-left: 630px;
+                margin-top: -500px;
+
+                .elipsi-2 {
+                    width: 36px;
+                    height: 420px;
+                    background-color: $textColor2;
+                    border: 1px solid red;
+                    position: absolute;
+
+                }
+            }
+        }
+
+    }
+
+
+
+    //second section 
+
+
+
+
+
+    // the-third-section
+
+
+
+    .row {
+
+        .background {
+            background-color: $theFristSectionColor;
+
+            .the-third-section-title {
+                font-size: 60px;
+            }
+
+
+        }
+
+    }
+
+
+
+    // the-third-section
+
+
+
+
+
+    // fourth-section
+
+
+    .row {
+        .fourth-section-title {
+            font-size: 60px;
+        }
+    }
+
+    // fourth-section
+
+
+
+
+    // sixth section
+
+
+
+    .row {
+
+        footer {
+            background-color: $theFristSectionColor;
+            margin-top: 100px;
+
+            .footer-img {
+                margin-top: 100px;
+            }
+        }
+
+    }
+
+
+
+
+    // sixth section
+
+
+}
+
+
+
+
+
+// ELEMENTS
+
+
+
+
+
+
+
+
+
+// MEDIA QUERIS 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//media queris header 2560px
+
+
+
+
+
+//media queris header 2560px
+
+
+
+@media (max-width: 2560px) {
+    .container {
+        .row {
+            header {
+                .header-logo {
+                    margin-left: 30px;
+                    position: absolute;
+                }
+
+                .header-search {
+                    margin-left: 370px;
+                }
+
+                .links {
+                    width: 550px;
+                    display: flex;
+
+                    a {
+                        font-size: 18px;
+                        margin-left: 20px;
+                        display: flex;
+
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+//media querist header 1440px
+
+
+
+
+
+
+@media (max-width: 1500px) {
+    .container {
+        .row {
+            header {
+                .header-logo {
+                    margin-left: 30px;
+                    position: absolute;
+                }
+
+                .header-search {
+                    margin-left: 370px;
+                }
+
+                .links {
+                    width: 550px;
+                    display: flex;
+
+                    a {
+                        font-size: 18px;
+                        margin-left: 20px;
+                        display: flex;
+
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+//media querist header 1440px
+
+
+
+
+//media querist header 1024px
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        .row {
+            header {
+                .header-logo {
+                    margin-left: -50px;
+                    position: absolute;
+                }
+
+                .header-search {
+                    margin-left: 200px;
+                }
+
+                .links {
+                    width: 550px;
+                    display: flex;
+
+                    a {
+                        font-size: 15px;
+                        margin-left: 20px;
+                        display: flex;
+
+
+                    }
+                }
+            }
+        }
+
+        .row {
+
+            .background {
+                width: 1170px;
+
+                .the-frist-section-link {
+                    margin-left: 530px;
+                }
+
+                .the-frist-section-img1 {
+                    margin-left: 40px;
+                }
+
+                .the-frist-section-img2 {
+                    width: 700px;
+                }
+
+                .card {
+                    margin-left: 790px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+//media querist header 1024px
+
+
+
+
+//media querist header 768px
+
+
+@media (max-width: 768px) {
+    .container {
+        .row {
+            header {
+                width: 900px;
+
+                margin-left: 120px;
+
+                .header-logo {
+                    margin-left: 390px;
+                    position: absolute;
+                }
+
+                .header-search {
+                    width: 700px;
+                    margin-left: 527px;
+                }
+
+                .links {
+                    width: 550px;
+                    position: absolute;
+                    display: flex;
+                    margin-left: 20px;
+
+
+                    a {
+                        font-size: 15px;
+                        margin-left: 20px;
+                        display: flex;
+
+
+                    }
+                }
+            }
+        }
+
+        .row {
+
+            .background {
+                width: 1090px;
+
+                .the-frist-section-link {
+                    margin-left: 550px;
+                }
+
+                .the-frist-section-img1 {
+                    margin-left: 70px;
+                }
+
+                .the-frist-section-img2 {
+                    width: 650px;
+                    margin-left: 90px;
+                }
+
+                .card {
+                    margin-left: 790px;
+                }
+
+                .the-frist-section-title {
+                    margin-left: 40px;
+                }
+
+                .the-frist-section-text {
+                    margin-left: 40px;
+                }
+            }
+        }
+    }
+}
+
+
+
+//media querist header 768px
+
+
+
+
+
+//media querist header 425px
+
+
+@media (max-width: 425px) {
+    .container {
+        .row {
+            header {
+
+                margin-left: 260px;
+
+                .header-logo {
+                    margin-left: 80px;
+                    position: absolute;
+                }
+
+                .header-search {
+
+                    margin-left: 200px;
+
+
+                }
+
+                .links {
+                    width: 550px;
+                    position: absolute;
+                    display: flex;
+                    margin-left: 10px;
+                    margin-top: 70px;
+                    font-size: 100px;
+
+
+                    a {
+                        font-size: 19px;
+                        margin-left: 40px;
+                        display: flex;
+
+
+                    }
+                }
+            }
+        }
+
+
+        .row {
+
+            .background {
+                width: 1229px;
+
+                .the-frist-section-link {
+                    width: 150px;
+                    margin-left: 570px;
+                }
+
+                .the-frist-section-img1 {
+                    margin-left: 70px;
+                }
+
+                .the-frist-section-img2 {
+                    width: 650px;
+                    margin-left: 90px;
+                }
+
+                .card {
+                    margin-left: 790px;
+                }
+
+                .the-frist-section-title {
+                    margin-left: 80px;
+                }
+
+                .the-frist-section-text {
+                    margin-left: 80px;
+                }
+            }
+        }
+    }
+}
+
+
+//media querist header 425px
+
+
+
+
+
+//media querist header 375px
+
+
+@media (max-width: 375px) {
+    .container {
+        .row {
+            header {
+                .header-logo {
+                    margin-left: 70px;
+                    position: absolute;
+                }
+
+                .header-search {
+                    margin-left: 140px;
+                    justify-content: left;
+                    position: absolute;
+                }
+
+                .links {
+                    width: 550px;
+                    position: absolute;
+                    display: flex;
+                    margin-left: -15px;
+                    margin-top: 70px;
+
+
+                    a {
+                        font-size: 19px;
+                        margin-left: 40px;
+                        display: flex;
+
+
+                    }
+                }
+            }
+        }
+
+
+        .row {
+
+            .background {
+                width: 1170px;
+                margin-top: 140px;
+
+                .the-frist-section-link {
+                    width: 150px;
+                    margin-left: 570px;
+                }
+
+                .the-frist-section-img1 {
+                    margin-left: 70px;
+                }
+
+                .the-frist-section-img2 {
+                    width: 650px;
+                    margin-left: 90px;
+                }
+
+                .card {
+                    margin-left: 790px;
+                }
+
+                .the-frist-section-title {
+                    margin-left: 80px;
+                }
+
+                .the-frist-section-text {
+                    margin-left: 80px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+//media querist header 375px
+
+
+
+
+
+//media querist header 320px
+
+
+@media (max-width: 320px) {
+    .container {
+        .row {
+            header {
+                .header-logo {
+                    margin-left: 70px;
+                    position: absolute;
+                }
+
+                .header-search {
+                    margin-left: 240px;
+                    justify-content: left;
+                    position: absolute;
+                    width: 250px;
+                }
+
+                .links {
+                    width: 550px;
+                    position: absolute;
+                    display: flex;
+                    margin-left: 40px;
+                    margin-top: 70px;
+
+
+                    a {
+                        font-size: 19px;
+                        margin-left: 40px;
+                        display: flex;
+
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+//media querist header 320px
+
+
+
+
+
+
+
+
+// MEDIA QUERIS 

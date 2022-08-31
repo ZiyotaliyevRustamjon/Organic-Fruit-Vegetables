@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container .row header {
+  margin-top: 60px;
+  display: flex;
+}
+.container .row header .links {
+  margin-left: -30px;
+}
+.container .row header .links a {
+  text-decoration: none;
+  color: #222222;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 30px;
+}
+.container .row header .header-logo {
+  margin-left: 318px;
+  margin-top: -20px;
+}
+.container .row header .header-search {
+  margin-left: 300px;
+  font-size: 19px;
+}
+.container .row header .header-search .bi-cart {
+  margin-left: 20px;
+}
+.container .row header .header-search .header-link {
+  background-color: #09A66D;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.container .row header .header-search .header-link:hover {
+  transition: 1s;
+  box-shadow: 0 0 30px #09A66D;
+}
+.container .row .background {
+  width: 115%;
+  background-color: #F3FBF8;
+  margin-left: -90px;
+  height: 950px;
+  margin-top: 80px;
+}
+.container .row .background .the-frist-section-img1 {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0px;
+  z-index: 1;
+}
+.container .row .background .the-frist-section-title {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  font-family: Rosario;
+  padding-top: 150px;
+}
+.container .row .background .the-frist-section-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #555555;
+  font-size: 18px;
+}
+.container .row .background .the-frist-section-link {
+  text-decoration: none;
+  color: black;
+  margin-left: 630px;
+  margin-top: 57px;
+  position: absolute;
+}
+.container .row .background .the-frist-section-link .bi-arrow-right {
+  background-color: #09A66D;
+  padding: 10px;
+  color: white;
+  border-radius: 50px;
+}
+.container .row .background .the-frist-section-img2 {
+  width: 862px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.container .row .background .card {
+  display: block;
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 950px;
+}
+.container .row .background .card .card1 {
+  display: block;
+}
+.container .row .background .card .card2 {
+  margin-top: 20px;
+}
+.container .row .background .card .card3 {
+  margin-top: 20px;
+}
+.container .row .second-section1 .second-section-title {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: Rosario;
+  margin-top: 140px;
+}
+.container .row .second-section1 .second-section-text {
+  font-size: 16px;
+  color: #555555;
+}
+.container .row .second-section2 {
+  display: block;
+  margin-top: 70px;
+  margin-left: 60px;
+}
+.container .row .second-section2 .second-section21 {
+  width: 440px;
+  padding: 30px;
+  margin-left: -30px;
+}
+.container .row .second-section2 .second-section21:hover {
+  transition: 0.7s;
+  background-color: #F3FBF8;
+}
+.container .row .second-section2 .second-section22 {
+  margin-top: 70px;
+  width: 440px;
+  padding: 30px;
+  margin-left: -30px;
+}
+.container .row .second-section2 .second-section22:hover {
+  transition: 0.7s;
+  background-color: #F3FBF8;
+}
+.container .row .second-section2 .second-section23 {
+  margin-top: 70px;
+  width: 440px;
+  padding: 30px;
+  margin-left: -30px;
+}
+.container .row .second-section2 .second-section23:hover {
+  transition: 0.7s;
+  background-color: #F3FBF8;
+}
+.container .row .second-section2 .elipse {
+  width: 420px;
+  height: 420px;
+  background-color: #09A66D;
+  border-radius: 250px;
+  margin-left: 630px;
+  margin-top: -500px;
+}
+.container .row .second-section2 .elipse .elipsi2 {
+  width: 36px;
+  height: 420px;
+  background-color: white;
+  border: 1px solid red;
+  position: absolute;
+}
+
+@media (max-width: 2560px) {
+  .container .row header .header-logo {
+    margin-left: 30px;
+    position: absolute;
+  }
+  .container .row header .header-search {
+    margin-left: 370px;
+  }
+  .container .row header .links {
+    width: 550px;
+    display: flex;
+  }
+  .container .row header .links a {
+    font-size: 18px;
+    margin-left: 20px;
+    display: flex;
+  }
+}
+@media (max-width: 1500px) {
+  .container .row header .header-logo {
+    margin-left: 30px;
+    position: absolute;
+  }
+  .container .row header .header-search {
+    margin-left: 370px;
+  }
+  .container .row header .links {
+    width: 550px;
+    display: flex;
+  }
+  .container .row header .links a {
+    font-size: 18px;
+    margin-left: 20px;
+    display: flex;
+  }
+}
+@media (max-width: 1024px) {
+  .container .row header .header-logo {
+    margin-left: -50px;
+    position: absolute;
+  }
+  .container .row header .header-search {
+    margin-left: 200px;
+  }
+  .container .row header .links {
+    width: 550px;
+    display: flex;
+  }
+  .container .row header .links a {
+    font-size: 15px;
+    margin-left: 20px;
+    display: flex;
+  }
+  .container .row .background {
+    width: 1170px;
+  }
+  .container .row .background .the-frist-section-link {
+    margin-left: 530px;
+  }
+  .container .row .background .the-frist-section-img1 {
+    margin-left: 40px;
+  }
+  .container .row .background .the-frist-section-img2 {
+    width: 700px;
+  }
+  .container .row .background .card {
+    margin-left: 790px;
+  }
+}
+@media (max-width: 768px) {
+  .container .row header {
+    width: 900px;
+    margin-left: 120px;
+  }
+  .container .row header .header-logo {
+    margin-left: 390px;
+    position: absolute;
+  }
+  .container .row header .header-search {
+    width: 700px;
+    margin-left: 527px;
+  }
+  .container .row header .links {
+    width: 550px;
+    position: absolute;
+    display: flex;
+    margin-left: 20px;
+  }
+  .container .row header .links a {
+    font-size: 15px;
+    margin-left: 20px;
+    display: flex;
+  }
+  .container .row .background {
+    width: 1090px;
+  }
+  .container .row .background .the-frist-section-link {
+    margin-left: 550px;
+  }
+  .container .row .background .the-frist-section-img1 {
+    margin-left: 70px;
+  }
+  .container .row .background .the-frist-section-img2 {
+    width: 650px;
+    margin-left: 90px;
+  }
+  .container .row .background .card {
+    margin-left: 790px;
+  }
+  .container .row .background .the-frist-section-title {
+    margin-left: 40px;
+  }
+  .container .row .background .the-frist-section-text {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 425px) {
+  .container .row header {
+    margin-left: 260px;
+  }
+  .container .row header .header-logo {
+    margin-left: 80px;
+    position: absolute;
+  }
+  .container .row header .header-search {
+    margin-left: 200px;
+  }
+  .container .row header .links {
+    width: 550px;
+    position: absolute;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 100px;
+  }
+  .container .row header .links a {
+    font-size: 19px;
+    margin-left: 40px;
+    display: flex;
+  }
+  .container .row .background {
+    width: 1229px;
+  }
+  .container .row .background .the-frist-section-link {
+    width: 150px;
+    margin-left: 570px;
+  }
+  .container .row .background .the-frist-section-img1 {
+    margin-left: 70px;
+  }
+  .container .row .background .the-frist-section-img2 {
+    width: 650px;
+    margin-left: 90px;
+  }
+  .container .row .background .card {
+    margin-left: 790px;
+  }
+  .container .row .background .the-frist-section-title {
+    margin-left: 80px;
+  }
+  .container .row .background .the-frist-section-text {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 375px) {
+  .container .row header .header-logo {
+    margin-left: 70px;
+    position: absolute;
+  }
+  .container .row header .header-search {
+    margin-left: 140px;
+    justify-content: left;
+    position: absolute;
+  }
+  .container .row header .links {
+    width: 550px;
+    position: absolute;
+    display: flex;
+    margin-left: -15px;
+    margin-top: 70px;
+  }
+  .container .row header .links a {
+    font-size: 19px;
+    margin-left: 40px;
+    display: flex;
+  }
+  .container .row .background {
+    width: 1170px;
+    margin-top: 140px;
+  }
+  .container .row .background .the-frist-section-link {
+    width: 150px;
+    margin-left: 570px;
+  }
+  .container .row .background .the-frist-section-img1 {
+    margin-left: 70px;
+  }
+  .container .row .background .the-frist-section-img2 {
+    width: 650px;
+    margin-left: 90px;
+  }
+  .container .row .background .card {
+    margin-left: 790px;
+  }
+  .container .row .background .the-frist-section-title {
+    margin-left: 80px;
+  }
+  .container .row .background .the-frist-section-text {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 320px) {
+  .container .row header .header-logo {
+    margin-left: 70px;
+    position: absolute;
+  }
+  .container .row header .header-search {
+    margin-left: 240px;
+    justify-content: left;
+    position: absolute;
+    width: 250px;
+  }
+  .container .row header .links {
+    width: 550px;
+    position: absolute;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 70px;
+  }
+  .container .row header .links a {
+    font-size: 19px;
+    margin-left: 40px;
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */
